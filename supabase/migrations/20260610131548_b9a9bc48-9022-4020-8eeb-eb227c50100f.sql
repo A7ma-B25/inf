@@ -1,0 +1,1 @@
+ALTER TABLE public.profiles ADD COLUMN IF NOT EXISTS full_access boolean NOT NULL DEFAULT false;
